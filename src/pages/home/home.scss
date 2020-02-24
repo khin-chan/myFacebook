@@ -1,0 +1,93 @@
+page-home {
+    #home{    
+        h1{
+            //font-size: x-large;
+            font-weight: bold;
+            color:#fc2352;
+            margin-left: 5px;
+        }                          
+        .inputText{
+            width: 100%;
+            font-size: medium;
+            color: black;
+            padding: 0px !important;
+         }
+         .btnText{
+             font-size: small;
+             text-transform: none;
+         }
+         .btnRow{
+            max-height: 30px;           
+            padding-bottom: 9px;
+         }
+         .verticalLine {
+            width:1px;
+            height:25px;           
+            background:rgb(212, 209, 209);           
+          }    
+         .photoSlide{
+            background-color: white; 
+            padding: 4px;
+            width: 10%;
+            border-radius: 20px;
+         }         
+         .photos{
+            height: 150px;
+            width: 90px;
+            margin: 0.5px;
+            border-radius: 20px;
+            object-fit: cover;           
+        }
+        .btnAdd{            
+            position: absolute;            
+            top: 6%;
+            right: 45%;           
+            padding: 5px 8px 5px 8px;            
+            background-color: white;
+            color: red;
+            font-size: 17px;           
+            border: none;
+            cursor: pointer;
+            border-radius: 50%;
+            text-align: center;
+        }
+        .txtStory{
+            position: absolute;
+            bottom: 8px;           
+            font-size: small;
+            font-weight: bold;
+            color: black;            
+            text-align: center;           
+        }
+        .storyBtn{        
+            margin-left: 8px;
+            margin-right: 3px;
+            border-radius: 5px; 
+            height: 30px;
+            width: 95%;
+        }
+        .icon{
+            //margin-right:0.5em;
+            padding: 5px;
+            align-items: center;
+        }
+        .requestImg{
+            height: 150px;
+            width: 100%;
+            //margin: 0.5px;
+            object-fit: cover;
+        }
+        
+       
+    
+        }
+        
+    }
+.icon-style{
+        color:grey,
+  }
+      
+.text-style{
+        text-transform: none;color:grey
+  }
+        
